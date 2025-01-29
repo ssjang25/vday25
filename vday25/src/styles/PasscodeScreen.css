@@ -1,0 +1,85 @@
+body {
+    background-color: #FFD8D9;
+}
+
+.numpad-container{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    top: 0;
+    left: 0;
+}
+
+.numpad {
+    border-radius: 20px;
+    background: radial-gradient(50% 50% at 50% 50%, rgba(190, 186, 186, 0.81) 0%, rgba(95, 93, 93, 0.75) 93.5%, rgba(88, 86, 86, 0.75) 100%);
+    width: 75vw;
+    height: 85vh;
+    
+}
+
+.numpad-title{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align:left;
+    padding-top: 5%;
+}
+
+.numpad-numbers{
+    width: 50%;
+}
+
+#numpad-header{
+    color: #FFD8D9;
+    font-family: "Press Start 2P", serif;
+    text-align: center;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 3px;
+}
+
+#numpad-answer{
+    font-size: 30px;
+}
+
+#numpad-answer-box{
+    height: 50px;
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    margin-top: 5%;
+    margin-bottom: 3%;
+}
+
+#numpad-key{
+    background: none;
+    font-size: 40px;
+    border: none;
+    margin: 20px;
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+#numpad-clear{
+    background-color: #FC3A3A !important;
+    background: none;
+    font-size: 40px;
+    border: none;
+    margin: 20px;
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+#numpad-check{
+    background-color: #69AD52 !important;
+    background: none;
+    font-size: 40px;
+    border: none;
+    margin: 20px;
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}

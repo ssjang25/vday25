@@ -1,0 +1,65 @@
+.startover-button{
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px 12px;
+    font-size: 16px;
+    font-weight: 800;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    outline: none;
+    user-select: none;
+    color: black;
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-top-color: #000000;
+    border-right-color: #000000;
+    border-bottom-color: #000000;
+    border-left-color: #000000;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background-color: #f7bdbd;
+    box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.2);
+    animation: pulse 1.5s ease-in-out infinite;
+  }
+  
+  .dialogue-button:hover {
+    transition: all 0.3s ease;
+  }
+  
+  @keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.05); }
+    100% { transform: scale(1); }
+}
+
+.end-container{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: "Press Start 2P", serif;
+    font-size: 50px;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    top: 0;
+    left: 0;
+    padding-top: 10%;
+}
+
+
+.end-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
